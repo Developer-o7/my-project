@@ -133,6 +133,7 @@ body {
   height: 160px;
   margin-left: 280px;
   opacity: 0.4;
+  z-index: ;
 }
 
 /* Back4 Img */
@@ -143,6 +144,7 @@ body {
   margin-top: -140px;
   margin-left: -80px;
   opacity: 2;
+  z-index: -1;
 }
 
 /* Back5 Img */
@@ -153,6 +155,7 @@ body {
   margin-top: 110px;
   margin-left: 240px;
   opacity: 2;
+  z-index: -1;
 }
 
 /* Back6 Img */
@@ -162,6 +165,7 @@ body {
   height: 240px;
   margin-top: -170px;
   margin-left: -20px;
+  z-index: -1;
 }
 
 /* Back7 Img */
@@ -171,6 +175,7 @@ body {
   height: 240px;
   margin-top: 140px;
   margin-left: 120px;
+  z-index: -1;
 }
 
 .header_text {
@@ -257,7 +262,6 @@ body {
   border-radius: 13px;
   margin: 0px 30px;
   margin-top: 40px;
-  flex-wrap: wrap;
 }
 
 .card_img {
