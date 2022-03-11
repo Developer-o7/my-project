@@ -12,7 +12,7 @@ body {
   background: #fff;
 }
 
-.navbar {
+nav {
   position: fixed;
   display: flex;
   flex-direction: row;
@@ -83,6 +83,7 @@ body {
 
 .logo_text1 {
   font-weight: 500;
+  color:#6cebde;
 }
 
 .links {
@@ -113,31 +114,31 @@ body {
 
 /* Back1 Img */
 
-.back1{
+.back1 {
   position: absolute;
   margin-top: -20px;
   margin-left: 20px;
 }
 
 /* Back2 Img */
-.back2{
-  position:absolute;
+.back2 {
+  position: absolute;
   margin-top: 20px;
   margin-left: 322px;
 }
 
 /* Back3 Img */
-.back3{
+.back3 {
   position: absolute;
   width: 240px;
   height: 160px;
   margin-left: 280px;
   opacity: 0.4;
-  z-index: ;
+  z-index: -1;
 }
 
 /* Back4 Img */
-.back4{
+.back4 {
   position: absolute;
   width: 240px;
   height: 300px;
@@ -148,7 +149,7 @@ body {
 }
 
 /* Back5 Img */
-.back5{
+.back5 {
   position: absolute;
   width: 240px;
   height: 240px;
@@ -159,7 +160,7 @@ body {
 }
 
 /* Back6 Img */
-.back6{
+.back6 {
   position: absolute;
   width: 240px;
   height: 240px;
@@ -169,7 +170,7 @@ body {
 }
 
 /* Back7 Img */
-.back7{
+.back7 {
   position: absolute;
   width: 280px;
   height: 240px;
@@ -385,13 +386,13 @@ small {
 
 /* Contact page */
 
-.maker{
+.maker {
   width: 300px;
   height: 220px;
   cursor: pointer;
 }
 
-.contact_icon{
+.contact_icon {
   width: 100px;
   height: 90px;
   margin-left: 120px;
@@ -404,11 +405,11 @@ small {
 
 /* Footer */
 
-footer{
+footer {
   position: relative;
 }
 
-.design{
+.design {
   position: absolute;
   text-align: center;
   margin-top: -40px;
@@ -420,7 +421,7 @@ footer{
   color: #13008e
 }
 
-.footer_design{
+.footer_design {
   margin-left: 10px;
   font-family: 'Montserrat';
   font-size: 18px;
@@ -428,4 +429,10 @@ footer{
   letter-spacing: 0.250em;
   font-weight: bold;
   color: #ddd
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 600px) {
 }

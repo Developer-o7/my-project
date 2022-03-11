@@ -1,6 +1,6 @@
 <template>
   <header>
-    <navbar class="navbar">
+    <nav>
       <div class="nav_links">
         <div class="logo">
           <a href="#">
@@ -17,7 +17,7 @@
           <a href="#contact" class="btn">Contact</a>
         </div>
       </div>
-    </navbar>
+    </nav>
 
     <div class="container col-12 flex">
       <img class="back1" src="./assets/img/back1.png" alt="404" />
